@@ -73,6 +73,12 @@ A profile JSON holds the logger variable names, pre-processing rules, math
 parameters, axes and factory base maps for one car. Older profile files with
 upper-case keys load unchanged and are written back in the same spelling.
 
+## Example
+
+`example/` holds a complete session from an Audi A4 1.8T: ten logs, the
+WinOLS export of its maps, a matching profile and the workbook the current
+code produces from them. Its own README walks through the three tabs with it.
+
 ## Layout
 
 | Package | Holds |

@@ -3,6 +3,10 @@
 *.xlsx
 Used_ECU_Profile.json
 
+# the bundled example keeps its data
+!example/**/*.csv
+!example/**/*.xlsx
+
 # Python
 .venv/
 __pycache__/
