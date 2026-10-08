@@ -1,0 +1,13 @@
+# logs, results and the profile backup the app writes next to them
+*.csv
+*.xlsx
+Used_ECU_Profile.json
+
+# Python
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+build/
+dist/
+*.egg-info/
