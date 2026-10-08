@@ -94,3 +94,7 @@ code produces from them. Its own README walks through the three tabs with it.
 ```bash
 pytest
 ```
+
+## License
+
+MIT, see `LICENSE`.
