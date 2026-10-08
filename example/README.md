@@ -25,8 +25,8 @@ Start the app from the repository root, with `python -m me7calib` or
    `maps/audi_a4_18t_maps.csv` and gives the same result; two rows show
    *Size Auto-Transposed*, which is the orientation healing for maps WinOLS
    writes with RPM on the x axis.
-2. **Data Ingestion & Filtering**: the folder field already points at
-   `example/logs`. Import with the parameters as loaded. Expect about 23,200
+2. **Data Ingestion & Filtering**: browse to `example/logs` as the raw log
+   folder and import with the parameters as loaded. Expect about 23,200
    rows after the transient filter, of which about 7,000 are wide open and
    2,000 are below the warm-up temperature. A copy of the profile is written
    into the logs folder as `Used_ECU_Profile.json`; git ignores it.
